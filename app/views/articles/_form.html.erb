@@ -26,9 +26,11 @@
     <% end %>
     <%= f.label :image, "Attach a new image" %><br />
     <%= f.file_field :image %>
-  </p>
-  
+  </p> 
   <p>
     <%= f.submit %>
   </p>
+  <p>
+    <%= link_to 'Cancel', :back %>
+  </p> 
 <% end %>
